@@ -1,0 +1,387 @@
+/*----------INDEX PAGE----------*/
+
+* {
+    margin:0;
+    padding:0;
+    font-family: Lato;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body, html {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/*----------MENU----------*/
+
+#menu {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    z-index: 2;
+}
+
+#menu ul {
+    list-style-type: none;  
+    height: 40px;  
+}
+
+#menu li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu i {
+    margin-right: 5px;
+}
+
+/*----------BERANDA----------*/
+
+#beranda {
+    width: 100%;
+    height: 100%;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+
+    background-image: url(https://static.wixstatic.com/media/d8b982_5fb600ab018d4637acdd8c7a4faa258b~mv2_d_4160_3120_s_4_2.jpg/v1/fill/w_4160,h_3120/IMG_20171123_123934.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  /*height: 550px;*/  
+    height: 92vh;
+    background-attachment: fixed;
+    
+}   
+
+.halamanberanda h1 {
+    /* Text styles */
+    font-size: 10em;
+    color: whitesmoke;
+    letter-spacing: 20px;
+    /* text-shadow: rgb(252, 252, 247) 1px 0 10px; */
+        /* Margins */
+    padding-top: 10px;
+    margin-bottom: 0.5px;
+}
+
+.halamanberanda h4 {
+    /* Text styles */
+    /* font-size:10px; */
+    color: white;
+    letter-spacing: 5px;
+    
+    /* Margins */
+    padding-top: 0px;
+    margin-bottom: 0.5px;
+}
+.halamanberanda p {
+    color: white;
+    letter-spacing: 5px;
+}
+
+.halamanberanda-container {
+    height: 100px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}    
+  /* ------TENTANG-----*/
+  #tentang {
+    width: 100%;
+    height: 100%;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+
+    background-color: rgb(219, 215, 215);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  /*height: 550px;*/  
+    height: 92vh;
+    background-attachment: fixed;
+    
+}  
+    #tentang h2 {
+    /* Text styles */
+    font-size: 40px;
+    color: black;
+    /*background-color: #b3afaf;*/
+    letter-spacing: 5px;
+    /* text-shadow: rgb(252, 252, 247) 1px 0 10px; */
+    padding-top: 10px;
+    margin-bottom: 0.5px;
+    text-align: center;
+}
+    .halamantentang p {
+    /* Text styles */
+    /* font-size:10px; */
+    color: black;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px; 
+    padding-top: 0px;
+    margin-bottom: 0.5px;
+}
+
+/*----------NILAI-------------*/
+#nilai {
+    width: 100%;
+    height: 100%;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+
+    background-color: rgb(219, 215, 215);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 92vh;
+    background-attachment: fixed;
+}
+#nilai ul {
+    list-style-type: none;  
+    height: 40px;  
+}
+
+#nilai li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+#nilai a {
+    text-decoration: none;
+    color: black;
+}
+
+#nilai i {
+    margin-right: 10px;
+}
+@media (max-width: 700px) 
+
+/*------------PRODUK------------*/
+#produk {
+    width: 100%;
+    height: 100%;
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Text styles */
+    text-align: center;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+#varianproduk {
+    text-align: center;
+    margin: 30px;
+}
+.var{
+    background-color: #EEEEE7;
+    width: 250px;
+    margin: 20px 10px;   
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.halamanproduk h2 {
+    /* Text styles */
+    font-size: 40px;
+    color: black;
+    /*background-color: #b3afaf;*/
+    letter-spacing: 5px;
+    /* text-shadow: rgb(252, 252, 247) 1px 0 10px; */
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 0.5px;
+    text-align: center;
+}
+.var h4,h5{
+    text-align: center;
+    font-weight: 100;
+    color: #5f5f5f;
+}
+.var h5{
+    font-style: italic;
+}
+.gambarproduk img{
+    object-fit: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+.order{
+    text-align: center;
+    margin: 5px 1px;
+}
+
+@media (max-width: 700px) 
+/*----------KONTAK--------*/
+
+
+#kontak1 {
+    width: 100%;
+    background-color: rgb(219, 215, 215);
+    background-size: cover;
+    height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#kontak1 h2 {
+       font-size: 40px;
+       color: black;
+       letter-spacing: 5px;
+       padding-top: 10px;
+       margin-bottom: 0.5px;
+       text-align: center;
+}
+#kontak1 p {
+    text-align: center;
+}
+
+.kontainerkontak {
+    display: flex;
+    margin: 5% auto;
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+}
+
+.kontainerkontak iframe {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.formkontak {
+    margin: 5px auto;
+}
+.formkontak form{
+   display: inline-grid;
+}
+
+.formkontak input {
+    width: 700px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.formkontak textarea {
+    border-radius: 3px;
+    width: 700px;
+    margin-bottom: 15px;
+}
+
+.formkontak #submit {
+    width: 100px;
+    float: right;
+}
+.formkontak #submit:hover {
+    width: 100px;
+    float: right;
+    background-color: #5f5f5f;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+#kontak2 {
+    width: 100%;
+    background-color: rgb(219, 215, 215);
+    background-size: cover;
+    height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.infokontak {
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.peta {
+    margin: 80px 200px 80px 80px;
+}
+
+
+@media (max-width: 767px) {
+    .contact-banner {
+        height: 400px;
+    }
+    #kontak h1 {
+        padding: 0 10px;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .kontainerkontak {
+        flex-direction: column;
+    }
+
+    .kontainerkontak input{
+        width: 300px;
+        margin-left: 20px;
+    }
+    .formkontak textarea{
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .peta iframe{
+        width: 300px;
+    }
+}
+@media (max-width: 1000px){
+    .kontainerkontak {
+        flex-direction: column;
+    }
+
+    .formkontak {
+        margin: 50px auto;
+    }
+
+    .peta {
+        margin:5px auto;
+    }
+
+}
+*/
+/*----------FOOTER----------*/
+
+footer {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    z-index: 6;
+}
+.sosmed, .oleh {
+    text-align: center;
+}
